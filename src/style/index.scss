@@ -1,0 +1,23 @@
+html {
+  --ant-primary-color: #1890ff;
+}
+
+// 原子类
+.mt-24 {
+  margin-top: 24px !important;
+}
+
+.text-dark {
+  color: rgba(0, 0, 0, 0.85);
+}
+.text-muted {
+  color: #8C8C8C !important; 
+}
+
+.text-white-dark {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.text-white-muted {
+  color: rgba(255, 255, 255, 0.45);
+}
