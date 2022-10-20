@@ -31,12 +31,12 @@ export const router: Router = createRouter({
 
 router.beforeEach((to, from, next) => {
   nProgress.start()
-  if (to.path !== "/login" && !getAuth()) {
-    next("/login")
-  }
-  if (to.path === "/login") {
-    removeAuth()
-  }
+  // if (to.path !== "/login" && !getAuth()) {
+  //   next("/login")
+  // }
+  // if (to.path === "/login") {
+  //   removeAuth()
+  // }
   next()
 })
 

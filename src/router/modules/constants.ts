@@ -8,6 +8,14 @@ const route: RouteRecordRaw[] = [
     meta: {
       title: "登陆"
     }
+  },
+  {
+    path: "/list",
+    name: "list",
+    component: () => import("@/views/list.vue"),
+    meta: {
+      title: "列表"
+    }
   }
 ]
 

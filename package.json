@@ -13,6 +13,7 @@
     "@formily/vue": "^2.1.4",
     "ant-design-vue": "^3.2.2",
     "axios": "^0.26.1",
+    "crud-vue": "0.0.6",
     "echarts": "^5.3.2",
     "nprogress": "^0.2.0",
     "pinia": "^2.0.13",

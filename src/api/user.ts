@@ -24,3 +24,7 @@ export const getUserInfo = () => {
 export const loginOut = () => {
   return http.post<unknown, resultType>("/logout")
 }
+
+export const getYdPage = (data: any) => {
+  return http.post<unknown, resultType>(`/rail/transport/getYdPage`, { data })
+}

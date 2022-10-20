@@ -2,8 +2,8 @@
   <div class="login-wrapper">
     <div class="login-box">
       <div class="login-form-box">
-        <h3 class="login-product-name">亚信货云物流信息平台</h3>
-        <p class="login-welcome">欢迎使用亚信货云物流信息平台！</p>
+        <h3 class="login-product-name">物流信息平台</h3>
+        <p class="login-welcome">欢迎使用物流信息平台！</p>
         <a-form
           :model="formState"
           name="normal_login"
@@ -69,7 +69,7 @@
       </div>
     </div>
   </div>
-  <div class="login-copyright">Copyright ©亚信货云 2022-2090</div>
+  <div class="login-copyright">Copyright © 2022-2090</div>
 </template>
 
 <script setup lang="ts">
